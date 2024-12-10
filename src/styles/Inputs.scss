@@ -1,0 +1,25 @@
+.form{
+  &__input{
+    width: 100vh;
+    height: 5vh;
+    padding-left: 20px;
+    font-size: 16px;
+    border: none;
+    &:hover::placeholder{
+      color: black;
+    }
+  }
+  &__btn{
+    position: relative;
+    width: 5vh;
+    aspect-ratio: 1;
+    border: none;
+     background-color: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover{
+      color: lightgray;
+    }
+  }
+}
