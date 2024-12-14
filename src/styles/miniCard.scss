@@ -4,5 +4,22 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
-  
+  background-color: gray;
+  &__edit{
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+  }
+  &__text{
+    display: flex;
+    width: 30%;
+    padding: 20px;
+    margin-top: 15px;
+
+    &-icon{
+      margin-left: 10px;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
 }
